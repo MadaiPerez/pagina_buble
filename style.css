@@ -1,0 +1,28 @@
+.arc-text {
+    font-family: 'Chewy', cursive;
+    font-size: 2rem;
+    fill: white;
+  }
+  
+  .arc-svg {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+  }
+
+
+
+.dancing-script{
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+}
+
+.ralwey{
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+}
+
+.ari{
+    font-family: "Arima", system ui;
+    font-size: 2rem;
+}

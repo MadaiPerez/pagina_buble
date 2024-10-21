@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Tea Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-pink-100 dark:bg-dark-bg text-gray-800 dark:text-gray-100 overflow-x-hidden"> <!-- Se agregó overflow-x-hidden -->
+
+    <!-- Header -->
+    <header class="flex items-center bg-primary">
+        <div class="flex justify-between items-center w-full p-5">
+            <nav class="flex-shrink-0">
+                <ul class="flex space-x-4 text-white">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <h1 class="text-white text-3xl font-bold arc-text mx-auto">Bubble Tea</h1>
+            <div class="flex items-center">
+                <button class="border text-white py-2 px-4 rounded-lg">Buy now</button>
+                <button id="btn-darkmode" class="ml-4 p-2 bg-gray-600 text-white rounded-full focus:outline-none">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="text-center p-10 bg-light-bg grid grid-cols-2 dark:bg-negro ">
+        <div class="mt-12">
+            <h2 class="text-4xl font-bold dancing-script">Bubble Tea</h2>
+            <p class="text-lg mt-10 dancing-script">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque dicta velit ipsa animi impedit voluptas quibusdam, inventore quaerat voluptatem dolore quam neque non alias odit dolor labore harum. Aliquam, ut!</p>
+        </div>
+        <div class="mt-5">
+            <img src="images/Boba_Tea-removebg-preview.png" alt="Bubble Tea" class="mx-auto w-1/3">
+        </div>
+    </section>
+
+    <!-- Flavors Section -->
+    <section class="p-10 text-center">
+        <h2 class="text-3xl font-bold mb-5 ralwey">Do you want to try our flavors?</h2>
+        <div class="grid grid-cols-1 md:grid-cols-6 gap-4 ">
+            <div class="flavor-item">
+                <img src="images/bubble1.png" alt="Flavor 1" class="mx-auto mb-2 w-20">
+                <p>Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="flavor-item">
+                <img src="images/bubble2.png" alt="Flavor 2" class="mx-auto mb-2 w-20">
+                <p>Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="flavor-item">
+                <img src="images/bubble3.png" alt="Flavor 3" class="mx-auto mb-2 w-20">
+                <p>Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="flavor-item">
+                <img src="images/bubble4.png" alt="Flavor 3" class="mx-auto mb-2 w-20">
+                <p>Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="flavor-item">
+                <img src="images/bubble7.png" alt="Flavor 3" class="mx-auto mb-2 w-20">
+                <p>Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="flavor-item">
+                <img src="images/bubble6.png" alt="Flavor 3" class="mx-auto mb-2 w-20">
+                <p>Lorem ipsum dolor sit amet</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="grid grid-cols-1 md:grid-cols-2 pb-4 w-full">
+            <!-- Primera tarjeta -->
+            <div class="flex flex-col md:flex-row items-center justify-between w-full mx-2 bg-pink-300 ">
+                <div class="text-center md:text-left">
+                    <h1 class="text-2xl font-semibold">Lorem ipsum dolor sit amet <br> consectetur</h1>
+                    <p>Lorem, ipsum.</p>
+                    <button class="bg-verde py-2 px-3 mt-3 hover:bg-black hover:bg-opacity-30">
+                        Order now
+                    </button>
+                </div>
+                <img src="images/bubble8.png" class="w-1/2 pt-4 md:w-1/4 mb-0" alt="Bubble Tea">
+            </div>
+        
+            <!-- Segunda tarjeta -->
+            <div class="flex flex-col md:flex-row items-center justify-between bg-reds w-full p-5 mx-2 bg-verde">
+                <div class="text-center md:text-left">
+                    <h1 class="text-2xl font-semibold">Lorem ipsum dolor sit amet <br>consectetur</h1>
+                    <p>Lorem, ipsum.</p>
+                    <button class="bg-pink-300 py-2 px-3 mt-3 hover:bg-black hover:bg-opacity-30">
+                        Order now
+                    </button>
+                </div>
+                <img src="images/bubble9.png" class="w-1/3 pt-4 md:w-1/4" alt="Bubble Tea">
+            </div>
+        </div>
+        
+    </section>
+    
+    <!-- Places Section -->
+    <section class="p-10 text-center">
+        <div class="flex items-center justify-center p-4 text-center gap-7 ari">
+            <h2 class="text-xl font-bold">Flavors</h2>
+            <h2 class="text-xl font-bold">Places</h2>
+            <h2 class="text-xl font-bold ">Prices</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
+            <div class="max-w-xs mx-auto bg-white border shadow-md p-4 dark:bg-negro border-none">
+                <img src="images/bubbletaro.jfif" alt="Bubble Tea" class="w-full h-auto rounded-md mb-4">
+                <h3 class="text-lg font-semibold text-center">Lorem, ipsum dolor.</h3>
+                <p class="text-green-600 font-bold text-center mb-2">$123</p>
+                <button class="bg-pink-300 rounded-lg py-2 px-3 mt-3 hover:bg-black hover:bg-opacity-30">
+                    Buy now
+                </button>
+            </div>
+
+            <div class="max-w-xs mx-auto bg-white border shadow-md p-4 dark:bg-negro border-none">
+                <img src="images/bubble matcha.jfif" alt="Bubble Tea" class="w-full h-auto rounded-md mb-4">
+                <h3 class="text-lg font-semibold text-center">Lorem, ipsum dolor.</h3>
+                <p class="text-green-600 font-bold text-center mb-2">$123</p>
+                <button class="bg-pink-300 rounded-lg py-2 px-3 mt-3 hover:bg-black hover:bg-opacity-30">
+                    Buy now
+                </button>
+            </div>
+
+            <div class="max-w-xs mx-auto bg-white border shadow-md p-4 dark:bg-negro border-none">
+                <img src="images/bubble caramel.jfif" alt="Bubble Tea" class="w-full h-auto rounded-md mb-4">
+                <h3 class="text-lg font-semibold text-center">Lorem, ipsum dolor.</h3>
+                <p class="text-green-600 font-bold text-center mb-2">$123</p>
+                <button class="bg-pink-300 rounded-lg py-2 px-3 mt-3 hover:bg-black hover:bg-opacity-30">
+                    Buy now
+                </button>
+            </div>
+
+            <div class="max-w-xs mx-auto bg-white border shadow-md p-4 dark:bg-negro border-none">
+                <img src="images/bubbletaro.jfif" alt="Bubble Tea" class="w-full h-auto rounded-md mb-4">
+                <h3 class="text-lg font-semibold text-center">Lorem, ipsum dolor.</h3>
+                <p class="text-green-600 font-bold text-center mb-2">$123</p>
+                <button class="bg-pink-300 rounded-lg py-2 px-3 mt-3 hover:bg-black hover:bg-opacity-30">
+                    Buy now
+                </button>
+            </div>
+
+            <div class="max-w-xs mx-auto bg-white border shadow-md p-4 dark:bg-negro border-none">
+                <img src="images/bubblefresa.jfif" alt="Bubble Tea" class="w-full h-auto rounded-md mb-4">
+                <h3 class="text-lg font-semibold text-center">Lorem, ipsum dolor.</h3>
+                <p class="text-green-600 font-bold text-center mb-2">$123</p>
+                <button class="bg-pink-300 rounded-lg py-2 px-3 mt-3 hover:bg-black hover:bg-opacity-30">
+                    Buy now
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- CTA Section -->
+    <section class="flex bg-verde text-center p-10 grid grid-cols-3 w-full">
+        <div  class="w-2/3">
+            <image src="images/tarobubbletea-removebg-preview.png" mode="">
+        </div>
+        <div class="w-2/3 mx-6 mt-16">
+            <h2 class="text-white text-2xl font-bold">Join in and get 15% off!</h2>
+            <p class="text-white mb-5">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+            <form class="flex justify-center">
+                <input type="email" placeholder="Enter email address" class="p-2 rounded-l-lg focus:outline-none dark:bg-negro text-white">
+                <button class="bg-primary text-white py-2 px-4 rounded-r-lg">Subscribe</button>
+            </form>
+        </div>
+
+        <div  class="w-2/3">
+            <image src="images/coffeebubbletea-removebg-preview.png" mode="">
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-primary text-white p-10">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+            <div>
+                <h3 class="text-xl" style="font-family: Chewy;">Bubble Tea</h3>
+                <ul class="space-y-2">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-xl font-bold">Follow us</h3>
+                <ul class="space-y-2">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-xl font-bold">Contact Info</h3>
+                <p>contactinfo@gmail.com</p>
+                <p>+503 87989898</p>
+                <p>1234 streat name,city,country</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-bold">Navigation</h3>
+                <ul class="space-y-2">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="config.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
